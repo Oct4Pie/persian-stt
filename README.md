@@ -1,5 +1,30 @@
 ## Persian (فارسی) STT Model
 This is a Persian DeepSpeech model that is currently in development. It is licensed under [GNU GPLv3](LICENSE).
+
+Jump to section:
+
+- [Persian (فارسی) STT Model](#persian-فارسی-stt-model)
+- [Data Preprocessing](#data-preprocessing)
+  - [Common-Voice](#common-voice)
+  - [Text Corpus](#text-corpus)
+- [Training](#training)
+- [Initial Configuration](#initial-configuration)
+- [Release](#release)
+- [Model card for Persian STT v0.1.0](#model-card-for-persian-stt-v010)
+  - [Model details](#model-details)
+  - [Intended use](#intended-use)
+  - [Performance Factors](#performance-factors)
+  - [Metrics](#metrics)
+    - [Transcription Accuracy](#transcription-accuracy)
+    - [Real-Time Factor](#real-time-factor)
+    - [Model Size](#model-size)
+    - [Approaches to uncertainty and variability](#approaches-to-uncertainty-and-variability)
+  - [Training data](#training-data)
+  - [Evaluation data](#evaluation-data)
+  - [Ethical considerations](#ethical-considerations)
+  - [Demographic Bias](#demographic-bias)
+  - [Surveillance](#surveillance)
+  - [Caveats and recommendations](#caveats-and-recommendations)
 ## Data Preprocessing
 ### Common-Voice
 - [persian_stt.ipynb](persian_stt.ipynb) contains a notebook that demonstrates how to preprocess the data.
@@ -47,33 +72,8 @@ initialize_globals_from_args(
 
 ## Release
  - The acoustic and language models are available in [releases](https://github.com/Oct4Pie/persian-stt/releases)
+
 ## Model card for Persian STT v0.1.0
-
-Jump to section:
-
-- [Persian (فارسی) STT Model](#persian-فارسی-stt-model)
-- [Data Preprocessing](#data-preprocessing)
-  - [Common-Voice](#common-voice)
-  - [Text Corpus](#text-corpus)
-- [Training](#training)
-- [Initial Configuration](#initial-configuration)
-- [Release](#release)
-- [Model card for Persian STT v0.1.0](#model-card-for-persian-stt-v010)
-  - [Model details](#model-details)
-  - [Intended use](#intended-use)
-  - [Performance Factors](#performance-factors)
-  - [Metrics](#metrics)
-    - [Transcription Accuracy](#transcription-accuracy)
-    - [Real-Time Factor](#real-time-factor)
-    - [Model Size](#model-size)
-    - [Approaches to uncertainty and variability](#approaches-to-uncertainty-and-variability)
-  - [Training data](#training-data)
-  - [Evaluation data](#evaluation-data)
-  - [Ethical considerations](#ethical-considerations)
-  - [Demographic Bias](#demographic-bias)
-  - [Surveillance](#surveillance)
-  - [Caveats and recommendations](#caveats-and-recommendations)
-
 ### Model details
 
 - Person or organization developing model: Maintained by [oct4pie](https://github.com/Oct4Pie).
